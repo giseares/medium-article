@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Open+Sans+Condensed:wght@300&display=swap');
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  font-size: 24px;
+  font-family: Helvetica;
+  text-align: center;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+h1 {
+  font-family: Bitter, cursive;
+  color: white;
+  font-weight: bold;
+  font-size: 54px;
+}
+
+h2 {
+  font-family: Bitter, cursive;
+  color: grey;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 0px;
+}
+
+p {
+  font-family: Open Sans Condensed, cursive;
+  color: grey;
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+#banner {
+  margin: 0px;
+  background-image: linear-gradient(225deg, rgb(44, 40, 40), rgba(163, 87, 87, 0.3)), url("https://unsplash.it/1300/600?random");
+  padding: 180px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  color: white;
+  border-radius: 0px;
+  text-align: center;
+  margin: 50px auto;
+ 
+}
+
+.container {
+	background: whitesmoke;
+	padding: 16px;
+	text-align: left;
+  padding: 50px;
+  margin: 50px auto;
+  width: 900px;
+}
+
+.btn-light-blue {
+  text-decoration: none;
+  color: rgb(59, 137, 139);
+  line-height: 30px;
+  margin: 0 0 30px 0;
+}
+
+.btn-light-blue:hover{
+  background-color: lightcyan;
+  
+}
